@@ -37,11 +37,8 @@ main {
     text-align: center;
   }
   p {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-    text-align: center;
-    margin-bottom: 40px;
+    @include mainfont;
+    @include textsmal;
   }
   header,
   footer {
@@ -112,3 +109,4 @@ main {
       margin-bottom: 0;
     }
   }
+

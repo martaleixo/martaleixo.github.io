@@ -1,0 +1,21 @@
+@mixin mainfont {
+    font-family: Arial, sans-serif;
+}
+
+@mixin textsmal {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@mixin textmedium {
+    font-size: 16px;
+    background: #0000ff;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

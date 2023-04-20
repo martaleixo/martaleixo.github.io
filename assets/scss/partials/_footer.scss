@@ -1,8 +1,6 @@
 footer {
-    background: #0000ff;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    p {
+      @include mainfont;
+      @include textmedium;
+    }
   }
