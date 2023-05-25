@@ -1,5 +1,4 @@
-main {
-    background: #fff;
+/*main {
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -8,7 +7,7 @@ main {
     padding: 30px 20px;
     max-width: 540px;
     margin: 0 auto;
-  }
+  } */
   @media (min-width: 850px) {
     main {
       max-width: 100%;
@@ -27,6 +26,15 @@ main {
     flex-direction: column;
     margin: 0;
     height: 100svh;
+    &.about {
+      background-color: tomato;
+    }
+    &.contacts {
+      background-color: yellow;
+    }
+    &.home {
+      background-color: lightblue;
+    }
   }
   h1 {
     font-family: Arial, sans-serif;
@@ -48,7 +56,6 @@ main {
   
   /* START MAIN */
   main {
-    background: #fff;
     flex-grow: 1;
     display: flex;
     align-items: center;
