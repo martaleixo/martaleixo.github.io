@@ -1,2 +1,24 @@
 $medium: 850px;
 $large: 1180px;
+
+@media (min-width: 850px) {
+    main {
+      max-width: 100%;
+      padding: 30px;
+    }
+  }
+  @media (min-width: 1180px) {
+    main {
+      max-width: 1130px;
+    }
+  }
+
+@media (max-width: 400px) {
+    header .container {
+        margin-top: 20px;
+        display: block;
+    }
+}
+nav a {
+    margin-right: 20px;
+}

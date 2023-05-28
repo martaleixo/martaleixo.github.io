@@ -8,7 +8,7 @@
     max-width: 540px;
     margin: 0 auto;
   } */
-  @media (min-width: 850px) {
+  /*@media (min-width: 850px) {
     main {
       max-width: 100%;
       padding: 30px;
@@ -18,9 +18,12 @@
     main {
       max-width: 1130px;
     }
-  }
+  }*/
 
-
+* {
+  margin: 0;
+  padding: 0;
+}
   body {
     display: flex;
     flex-direction: column;
@@ -37,11 +40,11 @@
     }
   }
   h1 {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 20px;
     margin: 0;
-    color: #0000ff;
+    color: white;
     text-align: center;
   }
   p {
@@ -50,8 +53,8 @@
   }
   header,
   footer {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
   }
   
   /* START MAIN */

@@ -7,10 +7,22 @@
 */
 header {
   background-color: $primary-color;
+  position: fixed;
+  top: o;
+  left: 0;
+  width: 100%;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
 }
 nav a {
   display: flex;
-  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
   color: #fff;
   text-decoration: none;
   &.active {
@@ -23,3 +35,4 @@ ul {
   column-gap: 10px;
   color: #fff;
 }
+
