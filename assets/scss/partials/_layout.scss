@@ -28,7 +28,7 @@ body {
   height: 100svh;
 
   &.about {
-    background-color: pink;
+    background-color: $main-background-color;
   }
 
   &.contacts {
@@ -46,8 +46,6 @@ h1 {
   font-size: 2.875rem;
   text-transform: lowercase;
   margin: 0;
-  color: white;
-  margin-left: 20px;
 }
 
 h2 {
@@ -58,7 +56,6 @@ h2 {
   margin: 0;
   text-align: left;
   margin-top: 80px;
-  color: white;
 }
 
 p {
@@ -70,7 +67,7 @@ header,
 footer {
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
-  color: white;
+  color: $text-secundary-color;
 }
 
 /* START MAIN */
@@ -83,39 +80,39 @@ main {
   padding: 30px 20px;
   max-width: 540px;
   margin: 0 auto;
+  color: $text-secundary-color;
+  background-color: $main-background-color;
 }
 
-@media (min-width: 850px) {
-  main {
-    max-width: 100%;
-    padding: 30px;
+
+/*SECÇÃO 1  - APRESENTAÇÃO*/
+.presentation {
+  h1 {
+    display: flex;
+    text-align: left;
+    margin-top: 60px;
+  }
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
-
-@media (min-width: 1180px) {
-  main {
-    max-width: 1130px;
-  }
-}
-
-/*SECÇÃO 1 */
-.presentation h2 a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
 /*SECÇÃO 2 - LINKS*/
 .contacts-home {
   display: flex;
   align-items: left;
   height: 5rem;
   margin-top: 10px;
-
   a {
     margin-right: 40px;
-    color: white;
+    color: $text-secundary-color;
     text-decoration: none;
     font-family: 'Inter', Arial, sans-serif;
     font-size: 32px;
