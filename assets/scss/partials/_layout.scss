@@ -23,12 +23,12 @@
 
 body {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   margin: 0;
   height: 100svh;
 
   &.about {
-    background-color: tomato;
+    background-color: pink;
   }
 
   &.contacts {
@@ -61,10 +61,10 @@ h2 {
   margin-top: 80px;
 }
 
-/*p {
+p {
   @include mainfont;
   @include textsmal;
-}*/
+}
 
 header,
 footer {
@@ -74,9 +74,9 @@ footer {
 
 /* START MAIN */
 main {
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   display: flex;
-  align-items: center;
+ /* align-items: center;*/
   justify-content: center;
   flex-direction: column;
   padding: 30px 20px;

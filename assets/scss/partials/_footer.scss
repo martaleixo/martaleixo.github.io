@@ -1,13 +1,6 @@
-.info {
-  background: black;
-  height: 50px;
-  text-align: center;
-  color: #fff;
+.copyright {
   display: flex;
-  align-items: center;
-  justify-content: center;
-    p {
-      @include mainfont;
-      @include textmedium;
-    }
+  p{
+    color: white;
   }
+}
