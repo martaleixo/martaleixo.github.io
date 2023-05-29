@@ -23,7 +23,7 @@
 
 body {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   margin: 0;
   height: 100svh;
 
@@ -56,9 +56,9 @@ h2 {
   font-size: 2rem;
   text-transform: lowercase;
   margin: 0;
-  color: white;
   text-align: left;
   margin-top: 80px;
+  color: white;
 }
 
 p {
@@ -70,13 +70,14 @@ header,
 footer {
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
+  color: white;
 }
 
 /* START MAIN */
 main {
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   display: flex;
- /* align-items: center;*/
+  /* align-items: center;*/
   justify-content: center;
   flex-direction: column;
   padding: 30px 20px;
@@ -112,7 +113,7 @@ main {
   height: 5rem;
   margin-top: 10px;
 
-a {
+  a {
     margin-right: 40px;
     color: white;
     text-decoration: none;
