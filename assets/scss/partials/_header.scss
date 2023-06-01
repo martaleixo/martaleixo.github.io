@@ -9,8 +9,15 @@ header {
   @include textsmal;
 
   .btn--toggle-menu {
+    background-color: transparent;
+    border: none;
+    display: contents;
+    cursor: pointer;
     @media (min-width: 850px) {
       display: none;
+    }
+    svg {
+      stroke: white;
     }
   }
 }
@@ -105,3 +112,4 @@ nav {
     }
   }
 }
+
