@@ -31,6 +31,7 @@ body {
   color: $text-primary-color;
   height: 100svh;
 }
+
 .container {
   flex: 1;
   max-width: 1200px;
@@ -158,7 +159,8 @@ section {
     font-size: 32px;
     margin-top: 40px;
   }
-  a:hover{
+
+  a:hover {
     color: rgb(231, 17, 195);
   }
 }

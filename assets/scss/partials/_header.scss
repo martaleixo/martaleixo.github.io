@@ -15,12 +15,17 @@ header {
   }
 }
 
-.container {
+.container-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 5rem;
+  flex: 1;
+  max-width: 1200px;
+  padding: 0 24px;
+  margin: 0 auto;
 }
+
 
 
 a {
