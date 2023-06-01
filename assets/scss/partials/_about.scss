@@ -1,16 +1,41 @@
-/*SECÇÃO SOBRE MIM */
+/*.me {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 40px;
+
+    .me-presentation {
+        width: 50%;
+        margin-top: -30px;
+
+        h2 {
+            display: flex;
+            margin-top: 100px;
+        }
+
+        h5 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+        }
+    }
+} */
+
+.bio {
+    display: flex;
+    column-gap: 40px;
+    margin-top: -190px;
+}
+
 .presentation {
-    background-color: $main-background-color;
-    color: $text-secundary-color;
-    h2 {
-        display: flex;
-        text-align: left;
-        margin-top: 100px;
-    }
-    .about {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-top: 20px;
-    }
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+figure.portrait {
+    width: 50%;
 }

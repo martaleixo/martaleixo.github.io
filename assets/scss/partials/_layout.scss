@@ -20,103 +20,146 @@
     }
   }*/
 
-
+/* ========= COMEÇA AQUI ========= */
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  @include mainfont;
+  font-weight: 200;
+  line-height: 146%;
+  background-color: $main-background-color;
+  color: $text-primary-color;
   height: 100svh;
-
-  &.about {
-    background-color: $main-background-color;
-  }
-
-  &.contacts {
-    background-color: black;
-  }
-
-  &.home {
-    background-color: black;
-  }
+}
+.container {
+  flex: 1;
+  max-width: 1200px;
+  padding: 0 24px;
+  margin: 0 auto;
 }
 
+
+
+/* ====== BODY ====== 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+  @include mainfont;
+  background-color: $main-background-color;
+  color: $text-primary-color;
+}
+
+/* ====== HEADER & FOOTER ====== 
+header,
+footer {
+  background-color: $main-background-color;
+  color: $text-primary-color;
+  @include mainfont;
+  @include textsmal;
+}
+
+/* ====== START MAIN ====== 
+main {
+  flex-grow: 1;
+  display: flex;
+  /* align-items: center;*/
+
+/* justify-content: center;
+  flex-direction: column;*/
+
+/*padding: 30px 20px;*/
+/*max-width: 540px;*/
+
+/*margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px;
+  background-color: $main-background-color;
+  color: $text-primary-color;
+}*/
+
+/* ====== STYLE ====== */
 h1 {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 2.875rem;
-  text-transform: lowercase;
+  @include texth1;
   margin: 0;
 }
 
 h2 {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 2rem;
-  text-transform: lowercase;
+  @include texth2;
   margin: 0;
-  text-align: left;
-  margin-top: 80px;
+}
+
+h3 {
+  @include texth3;
+}
+
+h4 {
+  @include texth4;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.125rem;
+}
+
+h5 {
+  @include textdefault;
 }
 
 p {
   @include mainfont;
   @include textsmal;
+  margin: 0 auto 1rem 0;
 }
 
-header,
-footer {
-  font-family: 'Inter', Arial, sans-serif;
-  font-size: 16px;
-  color: $text-secundary-color;
-}
-
-/* START MAIN */
-main {
-  flex-grow: 1;
-  display: flex;
-  /* align-items: center;*/
-  justify-content: center;
-  flex-direction: column;
-  padding: 30px 20px;
-  max-width: 540px;
-  margin: 0 auto;
-  color: $text-secundary-color;
-  background-color: $main-background-color;
-}
-
-
-/*SECÇÃO 1  - APRESENTAÇÃO*/
+/*SECÇÃO 1  - APRESENTAÇÃO
 .presentation {
   h1 {
     display: flex;
-    text-align: left;
     margin-top: 60px;
   }
+
   h2 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 20px;
   }
+
   a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &:hover {
+      color: #FF2CF7;
+    }
   }
+}*/
+
+
+
+/* SECTION */
+section {
+  margin-top: 380px;
 }
-/*SECÇÃO 2 - LINKS*/
+
+/* ==== intro ==== */
+.intro {
+  padding: 0px 0 100px 0;
+}
+
 .contacts-home {
   display: flex;
   align-items: left;
   height: 5rem;
   margin-top: 10px;
+
   a {
     margin-right: 40px;
-    color: $text-secundary-color;
+    color: $text-primary-color;
     text-decoration: none;
-    font-family: 'Inter', Arial, sans-serif;
     font-size: 32px;
     margin-top: 40px;
+  }
+  a:hover{
+    color: rgb(231, 17, 195);
   }
 }
 

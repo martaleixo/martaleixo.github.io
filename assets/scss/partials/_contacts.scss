@@ -3,14 +3,17 @@
     align-items: left;
     height: 5rem;
     margin-top: 10px;
+    @include texth2;
 
     a {
         margin-right: 40px;
-        color: white;
         text-decoration: none;
-        font-family: 'Inter', Arial, sans-serif;
         font-size: 32px;
         margin-top: 40px;
+        text-align: left;
+        background-color: $main-background-color;
+        color: $text-primary-color;
+        @include textdefault;
         text-align: left;
     }
 }

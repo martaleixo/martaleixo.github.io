@@ -1,39 +1,102 @@
-/* header {
-    h1 {
-      @include mainfont;
-      @include textmedium;
-    }
-  }
-*/
 header {
-  background-color: $primary-color;
   position: fixed;
-  top: o;
+  top: 0;
   left: 0;
   width: 100%;
+  background-color: $main-background-color;
+  color: $text-primary-color;
+  @include mainfont;
+  @include textsmal;
+
+  .btn--toggle-menu {
+    @media (min-width: 850px) {
+      display: none;
+    }
+  }
 }
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 4rem;
-  flex-direction: row-reverse;
-}
-nav a {
+
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 5rem;
-  color: #fff;
+}
+
+
+a {
   text-decoration: none;
+  background-color: $main-background-color;
+  color: $text-primary-color;
+  margin-right: 30px;
+  justify-content: flex-start;
+
   &.active {
     text-decoration: underline;
   }
 }
-ul {
+
+nav ul {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   list-style: none;
-  column-gap: 10px;
-  color: #fff;
 }
 
+/* ul {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+    comentario--- padding-bottom: 20px
+  }
+
+nav {
+  margin-right: 20px;
+}
+  .container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    flex-direction: row-reverse;
+  }*/
+
+
+#main-navigation {
+  display: none;
+
+  @media (min-width: 850px) {
+    display: block;
+  }
+
+  &.menu-is-open {
+    display: flex;
+    position: absolute;
+    background: blue;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    height: 100svh;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    ul {
+      flex-direction: column;
+      gap: 40px;
+      font-size: 20px;
+    }
+    @media (min-width: 850px) {
+      display: block;
+      position: static;
+      background: transparent;
+      width: auto;
+      height: auto;
+      ul {
+        flex-direction: row;
+        font-size: 16px;
+        column-gap: 30px;
+      }
+    }
+  }
+}

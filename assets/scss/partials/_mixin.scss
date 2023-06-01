@@ -1,14 +1,48 @@
 @mixin mainfont {
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+@mixin texth1 {
+    font-size: 2.875rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align: left;
+}
+@mixin texth2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: lowercase;
+    text-align: left;
+}
+@mixin texth3 {
+    font-size: 1.625rem;
+    font-weight: 300;
+    line-height: 140%;
+    text-align: left;
+}
+@mixin texth4 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 140%;
+    text-align: left;
 }
 
-@mixin textsmal {
+/* ==== RESPETIVO AO H5 ===== */
+@mixin textdefault {
+    font-size: 1.125rem;
+    line-height: 140%;
+    font-weight: 300;
+    text-align: left;
+}
+
+/*@mixin textmedium {
     font-size: 20px;
+}*/
+
+/* ===== TEXT SMALL É USADO NO HEADER E FOOTER */
+@mixin textsmal {
+    font-size: 16px;
     line-height: 1.4;
     text-align: center;
-    margin-bottom: 40px;
-}
-
-@mixin textmedium {
-    font-size: 16px;
+    margin-bottom: 10px;
 }
