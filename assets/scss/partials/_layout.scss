@@ -138,30 +138,28 @@ p {
 
 /* SECTION */
 section {
-  margin-top: 380px;
+  margin-top: 180px;
 }
 
 /* ==== intro ==== */
 .intro {
-  padding: 0px 0 100px 0;
+  padding: 60px 0 4px 0;
 }
-
 .contacts-home {
   display: flex;
   align-items: left;
   height: 5rem;
-  margin-top: 10px;
+  margin-top: 180px;
 
   a {
     margin-right: 40px;
     color: $text-primary-color;
     text-decoration: none;
     font-size: 32px;
-    margin-top: 40px;
   }
 
   a:hover {
-    color: rgb(231, 17, 195);
+    color: #f3ff0c;
   }
 }
 

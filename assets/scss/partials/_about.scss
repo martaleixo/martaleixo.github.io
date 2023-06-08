@@ -21,10 +21,10 @@
     }
 } */
 
-.bio {
+.me {
     display: flex;
     column-gap: 40px;
-    margin-top: -190px;
+   /* margin-top: -190px;*/
 }
 
 .presentation {
@@ -38,4 +38,17 @@ img {
 
 figure.portrait {
     width: 50%;
+}
+
+@media (max-width: 800px) {
+    .me {
+        display: block;
+    }
+    .presentation {
+        width: 100%;
+    }
+    figure.portrait {
+        margin-top: 38px;
+        width: 100%;
+    }
 }
