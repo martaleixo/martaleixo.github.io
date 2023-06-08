@@ -21,10 +21,14 @@
 section {
     margin-top: 180px;
   }
-
-  .intro {
-    padding: 60px 0 4px 0;
+  figure.smile {
+    width: 20%;
+    margin-right: 80px;
   }
+.smile-block {
+  display: flex;
+  flex-direction: row;
+}
   .contacts-home {
     display: flex;
     align-items: left;
@@ -35,11 +39,19 @@ section {
       margin-right: 40px;
       color: $text-primary-color;
       text-decoration: none;
-      font-size: 32px;
+      font-size: 2rem;
     }
   
     a:hover {
-      color: rgb(230, 18, 135);
+      color: #e61287;
     }
   }
 
+
+  .presentation-3 {
+    width: 90%;
+
+    h2 {
+        margin-top: 40px;
+    }
+}
