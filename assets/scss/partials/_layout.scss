@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   @include mainfont;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 146%;
   background-color: $main-background-color;
   color: $text-primary-color;
@@ -106,9 +106,10 @@ h5 {
 }
 
 p {
+  justify-content: left;
   @include mainfont;
   @include textsmal;
-  margin: 0 auto 1rem 0;
+
 }
 
 /*SECÇÃO 1  - APRESENTAÇÃO

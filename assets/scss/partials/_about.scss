@@ -23,12 +23,32 @@
 
 .me {
     display: flex;
-    column-gap: 40px;
-   /* margin-top: -190px;*/
+    column-gap: 60px;
+}
+.me-2 {
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 30px;
 }
 
 .presentation {
     width: 50%;
+
+    h2 {
+        margin-top: 40px;
+    }
+
+    h5 {
+        margin-top: 30px;
+    }
+}
+
+.presentation-2 {
+    width: 50%;
+    
+    h5 {
+        margin-top: 90px;
+    }
 }
 
 img {
@@ -36,18 +56,26 @@ img {
     margin-bottom: 30px;
 }
 
-figure.portrait {
+figure.portrait-me {
     width: 50%;
 }
+
+figure.paint {
+    width: 40%;
+}
+
 
 @media (max-width: 800px) {
     .me {
         display: block;
     }
+
     .presentation {
         width: 100%;
     }
-    figure.portrait {
+
+    figure.portrait,
+    figure.paint {
         margin-top: 38px;
         width: 100%;
     }

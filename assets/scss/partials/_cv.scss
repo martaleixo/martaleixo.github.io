@@ -1,4 +1,4 @@
-.grid-container-cv {
+/*.grid-container-cv {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     column-gap: 20px;
@@ -6,4 +6,14 @@
     margin-right: 60px;
     grid-template-rows: repeat(6,1fr);
     row-gap: 20px;
+}
+*/
+.cv {
+display: flex;
+column-gap: 25px;
+margin-top: 30px;
+}
+
+.experience {
+    width: 50%;
 }

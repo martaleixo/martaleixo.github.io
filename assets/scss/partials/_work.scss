@@ -1,17 +1,36 @@
-.project {
+.projects {
     display: flex;
     column-gap: 40px;
     margin: 30px 0 40px 0;
 }
 .title {
-    width: 15%;
+    width: 26%;
+
+    a {
+        margin-right: 40px;
+        color: $text-primary-color;
+        text-decoration: none;
+        font-size: 1rem;
+        border-bottom: 0.5px solid white;
+      }
+      ul {
+        list-style-type: none;
+      }
+    
+      a:hover {
+        color: #f3ff0c;
+      }
 }
 .detail {
-    width: 15%;
+    width: 10%;
+    .description {
+        width: 70%;
+        p {
+            text-align: left;
+        }
+    }
 }
-.description {
-    width: 70%;
-}
+
 figure.work {
     margin: 50px 0 0 0;
     width: 100%;
