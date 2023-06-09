@@ -25,6 +25,7 @@
     display: flex;
     column-gap: 60px;
 }
+
 .me-2 {
     display: flex;
     column-gap: 60px;
@@ -45,9 +46,17 @@
 
 .presentation-2 {
     width: 50%;
-    
+
     h5 {
         margin-top: 90px;
+    }
+}
+
+.presentation-4 {
+    width: 90%;
+
+    h5 {
+        margin-top: 40px;
     }
 }
 
@@ -74,9 +83,31 @@ figure.paint {
         width: 100%;
     }
 
-    figure.portrait,
+    figure.portrait-me,
     figure.paint {
         margin-top: 38px;
         width: 100%;
     }
+}
+
+figure.plinn {
+    width: 50%;
+    margin-right: 80px;
+}
+
+.plinn-block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.top-right {
+    width: 20%;
+    display: block;
+	margin: auto;
+    transition: transform 1s;
+    transform-origin: top right;
+}
+.top-right:hover {
+	transform: rotate(45deg);
 }
