@@ -112,28 +112,6 @@ p {
 
 }
 
-/*SECÇÃO 1  - APRESENTAÇÃO
-.presentation {
-  h1 {
-    display: flex;
-    margin-top: 60px;
-  }
-
-  h2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-
-  a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    &:hover {
-      color: #FF2CF7;
-    }
-  }
-}*/
 
 
 
@@ -161,7 +139,7 @@ section {
   }
 
   a:hover {
-    color: #f3ff0c;
+    color: #FF2CF7;
   }
 }
 
