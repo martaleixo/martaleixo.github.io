@@ -1,5 +1,3 @@
-
-
 /* animation effect 09 
 body {
 	height: 100vh;
@@ -136,7 +134,7 @@ h1 {
       padding: 40px 80px;
   } */
 
-  /* -------exercicio animation effect 01
+/* -------exercicio animation effect 01
   body {
     margin: 0;
     height: 100vh;
@@ -207,3 +205,20 @@ h1 {
   }
   */
 
+/* ==== animation page cv ======= */
+.bar-animation {
+  margin: 90px;
+}
+
+.bar_content {
+  display: block;
+  width: 100%;
+  transform: translateX(100%);
+  animation: move 30s linear infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}

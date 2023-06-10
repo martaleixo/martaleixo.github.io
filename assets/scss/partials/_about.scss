@@ -74,22 +74,6 @@ figure.paint {
 }
 
 
-@media (max-width: 800px) {
-    .me {
-        display: block;
-    }
-
-    .presentation {
-        width: 100%;
-    }
-
-    figure.portrait-me,
-    figure.paint {
-        margin-top: 38px;
-        width: 100%;
-    }
-}
-
 figure.plinn {
     width: 50%;
     margin-right: 80px;

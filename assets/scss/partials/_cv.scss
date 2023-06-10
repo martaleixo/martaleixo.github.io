@@ -11,36 +11,39 @@
 
 
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-ul {
-    list-style-type: none;
-}
-
-.topic {
-    display: inline-block;
-    font-size: 13px;
-    line-height: 20px;
-    margin: 10px 0;
-}
-p.desc,
-.desc-2 {
+p.desc {
     margin: 20px 0 20px;
     text-align: left;
     margin-bottom: 80px;
 }
 
+p.desc-2,
+.desc-3 {
+    margin: 20px 0 20px;
+    text-align: left;
+}
+
+.desc-3 {
+    margin-bottom: 80px;
+    border-bottom: 0.5px solid white;
+}
+.desc-3:hover {
+    color: #ff0c8e;
+    border-bottom: 0.5px solid #ff0c8e;;
+}
+
 .cntainer ul {
-    margin-top: 200px;
+    margin-top: 180px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 li {
-    width: 30%;
+    width: 70%;
 }
-
-//animation
