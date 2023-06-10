@@ -8,12 +8,39 @@
     row-gap: 20px;
 }
 */
-.cv {
-display: flex;
-column-gap: 25px;
-margin-top: 30px;
+
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-.experience {
-    width: 50%;
+ul {
+    list-style-type: none;
 }
+
+.topic {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+p.desc,
+.desc-2 {
+    margin: 20px 0 20px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.cntainer ul {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li {
+    width: 30%;
+}
+
+//animation
