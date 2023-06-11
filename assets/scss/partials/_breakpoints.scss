@@ -2,112 +2,6 @@ $medium: 850px;
 $large: 1180px;
 
 
-
-
-
-
-/*
-@media (max-width: 800px) {
-  body {
-       @include mainfont;
-      font-weight: 200;
-      line-height: 145%;
-  }
-}
-@media (max-width: 400px) {
-  header .container {
-      margin-top: 10px;
-      display: block;
-  }
-}
-@media (max-width: 400px) {
-  section {
-      margin-top: 160px;
-  }
-}
-@media (max-width: 800px) {
-  .intro {
-      padding: 60px 0 25px 0;
-  }
-  .bio {
-    display: block;
-    flex-direction: column;
-  
-  }
-  .presentation {
-    width: 100%;
-  }
-  .figure.portrait {
-    margin-top: 30px;
-    width: 100%;
-  }
-}
-@media (max-width: 800px) {
-.project {
-  display: block;
-  margin: 10px 0 20px 0;
-  column-gap: 40px;
-}
-.title,
-.detail {
-  width: 100%;
-}
-.description {
-  margin: 10px 0 15px 0;
-  width: 100%;
-}
-figure.portfolio {
-  margin: 30px 0 0 0;
-  width: 100%;
-}
-}
-/* ==== MEDIA-QUERY HEADER ==== 
-@media (max-width: 400px) {
-    header .container-nav {
-        margin-top: 20px;
-        display: block;
-    }
-}
-
-/* ==== MEDIA-QUERY MAIN ==== 
-@media (min-width: 850px) {
-    main {
-      max-width: 100%;
-      padding: 30px;
-    }
-  }
-  @media (min-width: 1180px) {
-    main {
-      max-width: 1130px;
-    }
-  }
-
-/* ==== MEDIA-QUERY TYPE ==== */
-
-
-
-/* ==== SECTION ==== 
-@media (max-width:800px) {
-  section {
-    margin-top: 20px;
-  }
-}
-
-/* ==== PAGINA ABOUT ==== 
-@media (max-width: 800px) {
-  .me {
-    display: block;
-  }
-  .me-presentation {
-    width: 100%;
-  }
-}
-.portrait {
-  margin-top: 38px;
-  width: 100%;
-}*/
-
-
 /* ========= WORK ======= */
 
 
@@ -141,11 +35,12 @@ figure.portfolio {
     margin-top: 38px;
     width: 100%;
   }
+
   .plinn-block {
     flex-direction: column;
     margin-top: 20px;
   }
-  
+
   .top-right {
     width: 50%;
     display: block;

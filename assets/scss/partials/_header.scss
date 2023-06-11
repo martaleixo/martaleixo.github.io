@@ -13,9 +13,11 @@ header {
     border: none;
     display: contents;
     cursor: pointer;
+
     @media (min-width: 850px) {
       display: none;
     }
+
     svg {
       stroke: white;
     }
@@ -83,7 +85,10 @@ nav {
   &.menu-is-open {
     display: flex;
     position: absolute;
-    background: blue;
+    background: $main-background-color;
+    color: $text-primary-color;
+    @include mainfont;
+    @include textsmal;
     top: 78px;
     left: 0;
     width: 100%;
@@ -98,12 +103,14 @@ nav {
       gap: 40px;
       font-size: 20px;
     }
+
     @media (min-width: 850px) {
       display: block;
       position: static;
       background: transparent;
       width: auto;
       height: auto;
+
       ul {
         flex-direction: row;
         font-size: 16px;
@@ -112,4 +119,3 @@ nav {
     }
   }
 }
-

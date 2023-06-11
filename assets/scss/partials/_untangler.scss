@@ -1,0 +1,95 @@
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .wrapper-intro {
+    display: flex;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 40% 70%;
+    gap: 1rem;
+  
+    h1 {
+      text-transform: none;
+    }
+  }
+  
+  .wrapper {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+    margin-top: 30px;
+  }
+  .moodybh {
+    margin-bottom: 50px;
+  }
+  
+  a.moodybh {
+    border-radius: 6px;
+    padding: 6px 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  .wmdy {
+    text-align: left;
+  }
+  
+  
+  //
+  
+  
+  .boxes {
+    display: flex;
+  }
+  .card {
+    margin-top: 70px;
+    position: relative;
+    width: 820px;
+    padding: 70px;
+  
+    overflow: hidden;
+  
+  }
+  
+  .card {
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: calc(-100% + 5px);
+      width: 100%;
+      height: 100%;
+  
+      transition: 0.5s;
+    }
+    &:hover {
+      &:before {
+        bottom: 0;
+      }
+    }
+  }
+  
+  .content-text {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+    a.content-text {
+        margin-top: 10px;
+        display: inline-block;
+        text-decoration: none;
+        padding: 6px 10px;
+      }
+  }
+  
+  h2 {
+    margin-bottom: 60px;
+    margin-top: 0;
+  }
+  
+  p {
+    text-align: left;
+  }

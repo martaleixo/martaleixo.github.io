@@ -1,28 +1,6 @@
-/*main {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px 20px;
-    max-width: 540px;
-    margin: 0 auto;
-  } */
-/*@media (min-width: 850px) {
-    main {
-      max-width: 100%;
-      padding: 30px;
-    }
-  }
-  @media (min-width: 1180px) {
-    main {
-      max-width: 1130px;
-    }
-  }*/
-
-/* ========= COMEÇA AQUI ========= */
 body {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   @include mainfont;
   font-weight: 400;
@@ -39,45 +17,6 @@ body {
   margin: 0 auto;
 }
 
-
-
-/* ====== BODY ====== 
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100svh;
-  @include mainfont;
-  background-color: $main-background-color;
-  color: $text-primary-color;
-}
-
-/* ====== HEADER & FOOTER ====== 
-header,
-footer {
-  background-color: $main-background-color;
-  color: $text-primary-color;
-  @include mainfont;
-  @include textsmal;
-}
-
-/* ====== START MAIN ====== 
-main {
-  flex-grow: 1;
-  display: flex;
-  /* align-items: center;*/
-
-/* justify-content: center;
-  flex-direction: column;*/
-
-/*padding: 30px 20px;*/
-/*max-width: 540px;*/
-
-/*margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 24px;
-  background-color: $main-background-color;
-  color: $text-primary-color;
-}*/
 
 /* ====== STYLE ====== */
 h1 {
@@ -113,8 +52,6 @@ p {
 }
 
 
-
-
 /* SECTION */
 section {
   margin-top: 180px;
@@ -142,55 +79,3 @@ section {
     color: #FF2CF7;
   }
 }
-
-
-
-/* END MAIN */
-
-/*SECÇÃO 3 - IMAGENS
-
-.flex-grid {
-  width: 100%;
-}
-
-.column {
-  background: #90ee90;
-}
-
-.column:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-figure {
-  margin: 0;
-  position: relative;
-  background: #ccc;
-  overflow: hidden;
-  aspect-ratio: 1 / 1;
-}
-
-img {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-@media (min-width: 850px) {
-  .flex-grid {
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
-  }
-
-  .column {
-    width: 33.33%;
-  }
-
-  .column:not(:last-child) {
-    margin-bottom: 0;
-  }
-}*/
